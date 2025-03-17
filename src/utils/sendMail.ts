@@ -25,7 +25,7 @@ export const sendContactSubmissionEmail = async (
 
   try {
     const info = await transporter.sendMail(mailOptions);
-    logger.info(`Contact submission email sent: ${info.response}`);
+    logger.info(`Contact submission email sent: ${info.response}. \n Sent to: ${process.env.RECEIVER_EMAIL1} and ${process.env.RECEIVER_EMAIL2}`);
   } catch (error) {
     logger.error("Error sending contact submission email:", error);
   }
