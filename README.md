@@ -17,7 +17,7 @@ This is a backend assignment for contact form.
 - Step 1: Clone the Repo
 
 ```bash
- git clone https://github.com/abhyuday1212/Rtc-Assignment.git
+ git clone https://github.com/abhyuday1212/Backend-Assignment.git
 ```
 
 ```bash
